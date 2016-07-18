@@ -1,0 +1,53 @@
+/*
+Theme Name:     8ú Blue
+Theme URI:      http://8u.ianhuston.net
+Description:    Child theme for Twenty Twelve theme incorporating more blue
+Author:         Ian Huston
+Author URI:     http://ianhuston.net
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+body {
+    font-size: 16px;
+    font-family: rockwell, arial, sans-serif;
+}
+
+.entry-categories a {
+    text-decoration: none;
+}
+
+.header-image {
+    text-align: center;
+    margin-top: 0;
+}
+
+#menu-top-menu {
+    text-align: center;
+    border-bottom: 1px solid rgb(80, 159, 216);
+    border-top: 1px solid rgb(80, 159, 216);
+}
+
+.main-navigation li {
+    margin: 0px 20px 0px 20px;
+    color: rgb(80,159,216);
+}
+
+.sub-menu li {
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+}
+
+img.noshadow {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.widget-area#secondary, footer[role="contentinfo"] {
+    border-top: 1px solid rgb(80,159,216);
+}
+
+.site-content#primary {
+    margin: 0px 0px 0px 0px;
+}
