@@ -12,7 +12,7 @@ Version:        0.1.0
 
 body {
     font-size: 16px;
-    font-family: rockwell, arial, sans-serif;
+    font-family: Tahoma, arial, sans-serif;
 }
 
 .entry-categories a {
@@ -40,7 +40,7 @@ body {
     margin: 0px 0px 0px 0px;
 }
 
-img.noshadow {
+.noshadow {
     box-shadow: 0px 0px 0px 0px;
 }
 
